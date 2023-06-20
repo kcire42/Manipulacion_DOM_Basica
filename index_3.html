@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interracion Js con HTML</title>
+    <style>
+        .calculo{
+            display: flex;
+            flex-direction: column;
+        }
+        .ingresar_datos{
+            height: 30px;
+            width: 150px;
+            margin-bottom: 20px;
+        }
+        .boton_inicio {
+            height: 30px;
+            width: 150px;
+            border-radius: 10px;
+            color: white;
+            background-color: black;
+            border: 2px solid;
+            border-color: red;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+        .output{
+            background: black;
+            color: white;
+            height: 50px;
+            width: 150px;
+            border-radius: 10px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <form id="form">
+        <div class="calculo">
+            <h1 class="title">Interraccion usuarios con paguina web</h1>
+            <h2>Calculadora basica 2</h2>
+            <input class="ingresar_datos" id="dato1" placeholder="Escribe algo aqui" />
+            <input class="ingresar_datos" id="dato2" placeholder="Escribe algo aqui" />
+            <button class="boton_inicio"  id="calcular" type="button"> Calcular</button>
+            <p class="output" id="concat"></p>
+            <p class="output" id="suma"></p>
+        </div>
+    </form>
+    
+    <script src="./script_3.js"></script>
+    
+</body>
+</html>
